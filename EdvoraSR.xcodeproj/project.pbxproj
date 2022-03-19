@@ -14,6 +14,8 @@
 		1858552227E3790F00C981A1 /* EdvoraSRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858552127E3790F00C981A1 /* EdvoraSRTests.swift */; };
 		1858552C27E3790F00C981A1 /* EdvoraSRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858552B27E3790F00C981A1 /* EdvoraSRUITests.swift */; };
 		1858552E27E3790F00C981A1 /* EdvoraSRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858552D27E3790F00C981A1 /* EdvoraSRUITestsLaunchTests.swift */; };
+		1858553B27E3793500C981A1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858553A27E3793500C981A1 /* MainView.swift */; };
+		18A6E80127E618440076DD18 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E80027E618440076DD18 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1858552727E3790F00C981A1 /* EdvoraSRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdvoraSRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1858552B27E3790F00C981A1 /* EdvoraSRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraSRUITests.swift; sourceTree = "<group>"; };
 		1858552D27E3790F00C981A1 /* EdvoraSRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraSRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1858553A27E3793500C981A1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		18A6E80027E618440076DD18 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				1858551027E3790C00C981A1 /* EdvoraSRApp.swift */,
-				1858551227E3790C00C981A1 /* ContentView.swift */,
+				18A6E80227E673D00076DD18 /* View */,
+				18A6E80027E618440076DD18 /* ViewModel.swift */,
 				1858551427E3790F00C981A1 /* Assets.xcassets */,
 				1858551627E3790F00C981A1 /* Preview Content */,
 			);
@@ -125,6 +130,15 @@
 				1858552D27E3790F00C981A1 /* EdvoraSRUITestsLaunchTests.swift */,
 			);
 			path = EdvoraSRUITests;
+			sourceTree = "<group>";
+		};
+		18A6E80227E673D00076DD18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1858553A27E3793500C981A1 /* MainView.swift */,
+				1858551227E3790C00C981A1 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1858551327E3790C00C981A1 /* ContentView.swift in Sources */,
+				1858553B27E3793500C981A1 /* MainView.swift in Sources */,
+				18A6E80127E618440076DD18 /* ViewModel.swift in Sources */,
 				1858551127E3790C00C981A1 /* EdvoraSRApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
